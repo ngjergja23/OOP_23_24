@@ -12,19 +12,19 @@ public class MainApp {
     private static String[] names = new String[5];
 
     public static void main(String[] args) {
-//        int[] ints = new int[10];
-//        int[] newInts = {10, 20, 30, 40};
-//        System.out.println("1. niz: " + ints.length);
-//        System.out.println("2. niz: " + newInts.length);
-//        System.out.println(ints[3]);
-//        System.out.println(newInts[3]);
-//
-//        changeElement(names,2);
-//        System.out.println(names[2]);
-//
-//        for (int k = 0; k < ints.length; k++) {
-//            ints[k] = k + 1;
-//        }
+        int[] ints = new int[10];
+        int[] newInts = {10, 20, 30, 40};
+        System.out.println("1. niz: " + ints.length);
+        System.out.println("2. niz: " + newInts.length);
+        System.out.println(ints[3]);
+        System.out.println(newInts[3]);
+
+        changeElement(names,2);
+        System.out.println(names[2]);
+
+        for (int k = 0; k < ints.length; k++) {
+            ints[k] = k + 1;
+        }
 
 
         populateStringNames(names);
