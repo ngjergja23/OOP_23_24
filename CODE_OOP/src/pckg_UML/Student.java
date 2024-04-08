@@ -1,6 +1,20 @@
 package pckg_UML;
 
-public class Student extends User{
+import javax.sound.midi.Soundbank;
+
+public class Student extends Person{
+
+
+    public Student(String name, String surname) {
+
+        super(name, surname);
+    }
+
+
+
+    public void askQuestion(){
+        System.out.println("Student: " + this.name + " ask qusetion! ");
+    }
 
     @Override
     public boolean activateAccount() {
@@ -11,7 +25,5 @@ public class Student extends User{
         return 5;
     }
 
-    public Student(String userName, String mail, String pass) {
-        super(userName, mail, pass);
-    }
+
 }

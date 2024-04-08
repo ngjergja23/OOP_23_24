@@ -17,11 +17,7 @@ public class User {
 
     }
 
-    public boolean activateAccount(){
 
-
-        return true;
-    }
     public boolean logIn(String pswd,String usName){
 
 
