@@ -2,6 +2,7 @@ package pckg_vecera_main_part;
 
 import pckg_outsource_vecera.Desert;
 import pckg_outsource_vecera.Predjelo;
+import pckg_outsource_vecera.PredjeloNovo;
 
 public class Vecera {
 
@@ -11,11 +12,15 @@ public class Vecera {
         GlavnoJelo glavnoJelo = new GlavnoJelo();
         Desert desert = new Desert("Cheesecake",2);
 
-        predjelo.pojediPredjelo("Grčka");
+        predjelo.pojediPredjelo("Cez");
         float cijena = glavnoJelo.totalPrice();
 
         // kad nije korišten modifikator pristupa onda je vidljiv samo unutar paketa
         // izbjegavati bez!
+
+        PredjeloNovo pn = new PredjeloNovo("grčka","salata",2,"main");
+        pn.pojediPredjelo("grk");
+
 
     }
 

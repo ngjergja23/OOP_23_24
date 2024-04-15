@@ -4,13 +4,13 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class GlavnoJelo {
 
-    float cijena;
+    private float cijena;
 
 
     public GlavnoJelo(){
         System.out.println("Spremljeno i servirano GLAVNO");
     }
-    float totalPrice(){
+    public float totalPrice(){
         return ThreadLocalRandom.current().nextFloat(50.5f,250.8f);
     }
 }
