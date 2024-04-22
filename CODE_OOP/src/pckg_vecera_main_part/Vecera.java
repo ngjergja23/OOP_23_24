@@ -18,6 +18,9 @@ public class Vecera {
         // kad nije korišten modifikator pristupa onda je vidljiv samo unutar paketa
         // izbjegavati bez!
 
+
+        // kad je private -> potpuna enkapsulacija
+
         PredjeloNovo pn = new PredjeloNovo("grčka","salata",2,"main");
         pn.pojediPredjelo("grk");
 
