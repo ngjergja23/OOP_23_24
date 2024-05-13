@@ -1,9 +1,7 @@
-package pckg_col_2;
+package pckg_collections_2;
 
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.LinkedHashSet;
-import java.util.TreeSet;
 
 public class ClientApp {
 

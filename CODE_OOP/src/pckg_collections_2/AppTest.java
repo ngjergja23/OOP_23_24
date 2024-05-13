@@ -1,7 +1,6 @@
-package pckg_col_2;
+package pckg_collections_2;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 
 public class AppTest {
